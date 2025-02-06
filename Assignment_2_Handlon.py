@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-# Load the dataset using NumPy (update 'your_file_path_here.tsv' with your file path)
+
 data = np.genfromtxt('/Users/lucashandlon/Desktop/I.I. 2/NBA_Player_Stats.tsv', delimiter='\t', dtype=None, encoding=None, names=True)
 
 # Extract necessary columns
